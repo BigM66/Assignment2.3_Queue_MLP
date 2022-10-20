@@ -14,6 +14,7 @@ public class Queue<T> implements QueueInterface{
 	/*
 	a method that adds an object to the head of our linked list
 	@param newEntry that we want to add to our list 
+	*/
 	public void  enqueue(Object newEntry) {
 		list.add(newEntry);
 	}
