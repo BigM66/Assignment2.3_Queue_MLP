@@ -67,6 +67,7 @@ public class Queue<T> implements QueueInterface{
 	
 	/*
 	a method that helps us to print our queue as we add and remove things from it
+	*/
 	public String toString() {
 		Node<String> node = list.get(0);
 		String str = "";
@@ -78,5 +79,6 @@ public class Queue<T> implements QueueInterface{
 		
 		return str;
 	}
+	
 
 }
